@@ -16,5 +16,6 @@ namespace Programll.Ejercicios
                 Console.WriteLine("Te queda una vida");   // nunca se imprime
                 vidas--;
             }
+        }
     }
 }
