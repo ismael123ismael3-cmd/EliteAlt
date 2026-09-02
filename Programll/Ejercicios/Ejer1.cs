@@ -7,14 +7,10 @@ namespace Programll.Ejercicios
     public class Ejer1
     {
         static void Main(string[] args)
-
         {
-            int vidas = 0;
-
-            while (vidas > 0)     // 0 > 0 es FALSO desde el inicio
+            for (int i = 1; i <= 456; i++)
             {
-                Console.WriteLine("Te queda una vida");   // nunca se imprime
-                vidas--;
+                Console.WriteLine("Jugador " + i);
             }
         }
     }
