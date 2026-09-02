@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Programll.PrograEjercicios.ejercicio05</StartupObject>
+    <StartupObject>Programll.ciclosejercicios.EJER05</StartupObject>
   </PropertyGroup>
 
 </Project>
