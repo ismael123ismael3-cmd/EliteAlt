@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Programll": {
+      "commandName": "Project",
+      "debugEngines": "managed"
+    }
+  }
+}
