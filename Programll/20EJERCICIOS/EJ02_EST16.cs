@@ -36,8 +36,6 @@ namespace Programll._20EJERCICIOS
                 Console.WriteLine($"No se alcanzo la meta. Faltaron {META - suma} participantes");
             }
 
-            const int MIN_CONTRATADOS = 0;
-            const int MAX_CONTRATADOS = 150;
         }
     }
 }
