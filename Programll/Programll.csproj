@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject></StartupObject>
+    <StartupObject>Programll._20EJERCICIOS.EJ01_EST16</StartupObject>
   </PropertyGroup>
 
 </Project>
