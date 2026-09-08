@@ -5,7 +5,13 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Programll.Ejercicios.Ejer1</StartupObject>
+    <StartupObject>Programll.Video.Codigo4</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Ejercicios\**" />
+    <EmbeddedResource Remove="Ejercicios\**" />
+    <None Remove="Ejercicios\**" />
+  </ItemGroup>
 
 </Project>

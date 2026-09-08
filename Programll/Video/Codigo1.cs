@@ -8,15 +8,16 @@ namespace Programll.Video
     {
         public static void Main(string[] args) 
         {
-            const int tramitesTotales = 0;
+            const int tramitesTotales = 4;
+            int contador = 0;
 
-            while (tramitesTotales < 5)
+            while (contador < tramitesTotales)
             {
-                Console.WriteLine("Tramite numero " + (tramitesTotales + 1));
-                tramitesTotales++;
-
-                
+                Console.WriteLine("Tramite numero " + (contador + 1));
+                contador++;
             }
+
+            Console.WriteLine("Total procesado: " + tramitesTotales);
         }
     }
 }
