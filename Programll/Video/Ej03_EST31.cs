@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Programll.Video
 {
-    public class Codigo3
+    public class Ej03_EST31
     {
         public static void Main(string[] args)
         {

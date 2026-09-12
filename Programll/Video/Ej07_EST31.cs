@@ -4,7 +4,11 @@ using System.Text;
 
 namespace Programll.Video
 {
-    internal class Codigo5
+    public class Ej07_EST23
     {
+        public static void Main(string[] args)
+        {
+
+        }
     }
 }

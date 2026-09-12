@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>Programll.Video.codigo1</StartupObject>
+    <StartupObject>Programll.Video.Ej06_EST31</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
