@@ -8,9 +8,9 @@ namespace Programll.Video
     {
         public static void Main(string[] args) 
         {
-            const double primerParcial = 0 % 0.30;
-            const double segundoParcial = 0 % 0.30;
-            const double tercerParcial = 0 % 0.30;
+            double primerParcial;
+            double segundoParcial;
+            double tercerParcial;
 
             Console.WriteLine("Nota del Primer Parcial: ");
             primerParcial = double.Parse(Console.ReadLine());
@@ -20,6 +20,11 @@ namespace Programll.Video
 
             Console.WriteLine("Nota del Tercer Parcial: ");
             tercerParcial = double.Parse(Console.ReadLine());
+
+            primerParcial = primerParcial * 0.35;
+            segundoParcial = primerParcial * 0.35;
+            tercerParcial = primerParcial * 0.30;
+
 
             double PromedioAponderado = primerParcial + segundoParcial + tercerParcial;
             Console.WriteLine("Primedio Aponderado:" + PromedioAponderado);
