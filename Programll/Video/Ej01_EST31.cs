@@ -8,16 +8,21 @@ namespace Programll.Video
     {
         public static void Main(string[] args) 
         {
-            const int tramitesTotales = 4;
-            int contador = 0;
+            const double primerParcial = 0 % 0.30;
+            const double segundoParcial = 0 % 0.30;
+            const double tercerParcial = 0 % 0.30;
 
-            while (contador < tramitesTotales)
-            {
-                Console.WriteLine("Tramite numero " + (contador + 1));
-                contador++;
-            }
+            Console.WriteLine("Nota del Primer Parcial: ");
+            primerParcial = double.Parse(Console.ReadLine());
 
-            Console.WriteLine("Total procesado: " + tramitesTotales);
+            Console.WriteLine("Nota del Segundo Parcial: ");
+            segundoParcial = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Nota del Tercer Parcial: ");
+            tercerParcial = double.Parse(Console.ReadLine());
+
+            double PromedioAponderado = primerParcial + segundoParcial + tercerParcial;
+            Console.WriteLine("Primedio Aponderado:" + PromedioAponderado);
         }
     }
 }
